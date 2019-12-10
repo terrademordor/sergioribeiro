@@ -1,0 +1,12 @@
+{
+    "ferias": [
+        {"nome" : "Praia", "valor": 200.00 },
+        {"nome" : "Ilha do Sal", "valor": 500.00},
+        {"nome" : "Campo", "valor": 150.00}
+    ],
+    "Transporte": [
+        {"nome": "Carro", "valor": 50.00},
+        {"nome": "Autocarro", "valor": 80.00},
+        {"nome": "Avião", "valor": 1500.00}
+    ]
+}
