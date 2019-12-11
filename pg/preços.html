@@ -1,159 +1,200 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
 <head>
-	<title>Bootstrap</title>
-	<!--Codificação da página-->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bootstrap</title>
+  <!-- codificação da página-->
+  <meta charset="utf-8">
 
-	<!--CSS-->
-	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
-	<script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+  <meta name="viewport" content="width=device-width, inital-scale=1, shrink-to-fit=no">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css"> 
+  
 </head>
 <body>
-
-<!--Menu Dinâmimco-->
-
+  <!-- nav bar -->
+<div class="pos-f-t">
+  <div class="collapse" id="batatas">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">Desing Multimédia</h5>
+      <!--<span class="text-muted">Menu dinâmico</span>-->
+      <a href="../index.html" title="Inicio" class="btn btn-info"> Inicio </a>   
+      <a href="preço.html" title="Preço das Férias" class="btn btn-info"> Preços </a>
+      <a href="estadia.html" title="Estadia" class="btn btn-info"> Estadia </a>
+    </div>
+  </div>
   <nav class="navbar navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#batatas" aria-controls="batatas" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   </nav>
-
-<!--Menu Alternável-->
-<div class="pos-f-t">
-  <div class="collapse" id="batatas">
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Design e Multimédia</h5>
-      <!--<span class="text-muted">Menu dinâmico</span>-->
-      <a href="../index.html" title="" class="btn btn-info">Início</a>
-      
-    </div>
-  </div>
 </div>
 
-<!--Estrutura do Site-->
+<!-- "introdução da página" --> 
+<p align="center">
+<h4  align="center">
+  I am in the price's page
+</h4>
+</p>
+<!--https://getbootstrap.com/docs/4.3/layout/grid/-->
+<!-- Equal Width -->
+
 <div align="center">
-<div class="container">
-        <div class="row">
-                      <div class="col">
-                      <!-- LInha de cima primeira-->
-                      <!--Imagens-->
-                      <div class="card" style="width: 18rem;">
-                    <img src="../img/1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-
-                      </div>
-                  <div class="col">
-                    <div class="card" style="width: 18rem;">
-                <img src="../img/2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                  <!-- Linha de cima segunda-->
-
-
-              </div>
-                </div>
-         </div>
-  <div class="alert alert-light" role="alert">
-  <h3>Escolha Tuas Férias</h3>
-</div>
-
-<!-- Primeira linha de 3 colunas-->
-  <div class="row">
-                  <div class="col">
-                  <!-- Primeira Coluna-->
-              <div class="card border-secondary mb-3" style="max-width: 18rem;">
-                <div class="card-header">Dias na Montanha</div>
-                <div class="card-body text-secondary">
-                  <h5 class="card-title">Montanha Grande</h5>
-                  <p class="card-text">Passe dias incríveis nas montanhas.</p>
-                </div>
-              </div>
-              </div>
-
-          <div class="col">
-                <!--Segunda coluna-->
-          <div class="card border-secondary mb-3" style="max-width: 18rem;">
-            <div class="card-header">Dias no campo.</div>
-            <div class="card-body text-secondary">
-              <h5 class="card-title">Quinta do Atalaia</h5>
-              <p class="card-text">Passe dias incríveis no campo.</p>
-            </div>
-          </div>
-          </div>
-
+  <div class="container">
+    <div class="row">
 
         <div class="col">
-              <!--Terceira Coluna-->
-        <div class="card border-secondary mb-3" style="max-width: 18rem;">
-          <div class="card-header">Dias nas ilhas</div>
-          <div class="card-body text-secondary">
-            <h5 class="card-title">Madeira</h5>
-            <p class="card-text">Aproveite suas férias na praia.</p>
+          <!-- 1 of 2 linha cima lado esquerdo -->
+          <!-- https://getbootstrap.com/docs/4.3/components/card/ -->
+          <!-- Image -->
+        <div class="card" style="width: 18rem;">
+          <img src="../img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Passeio nas montanhas</h5>
+            <p class="card-text">Viva dias incríveis nas montanhas.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
           </div>
         </div>
-            </div>
-  </div>
+        </div>
 
-<!-- Segunda linha de 3 colunas-->
+        <div class="col">
+          <!--2 of 2 linha cima lado direito -->
+          <!-- https://getbootstrap.com/docs/4.3/components/card/ -->
+          <!-- Image -->
+        <div class="card" style="width: 18rem;">
+          <img src="../img/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Passeio nas montanhas</h5>
+            <p class="card-text">Visite várias montanhas.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        </div>
+    </div>
 
-<div class="alert alert-info" role="alert">
-  <h2>Mais Informações</h2>
+<!-- https://getbootstrap.com/docs/4.3/components/alerts/ -->
+<!-- examples -->
+<div class="alert alert-light" role="alert">
+  <h5>Escolhe a tua companhia</h5>
+</div>
+
+    <div class="row">
+        <div class="col">
+          <!--1 of 3 linha baixo lado esquerdo -->
+          <!-- https://getbootstrap.com/docs/4.3/components/card/ -->
+          <!-- Border -->
+        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+          <!-- link para página do IPT -->
+              <div class="card-header"> <a href="http://www.ipt.pt" title="Site do IPT"> IPT </a></div>
+          <div class="card-body text-secondary">
+            <h5 class="card-title"> IPT </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        </div>
+
+        <div class="col">
+          <!--2 of 3 linha baixo meio -->
+          <!-- https://getbootstrap.com/docs/4.3/components/card/ -->
+          <!-- Border -->
+          <div class="card border-secondary mb-3" style="max-width: 18rem;">
+              <div class="card-header">Header</div>
+          <div class="card-body text-secondary">
+            <h5 class="card-title">Pardilhoense</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        </div>
+
+        <div class="col">
+          <!--3 of 3 linha baixo lado direito -->
+          <!-- https://getbootstrap.com/docs/4.3/components/card/ -->
+          <!-- Border -->
+          <div class="card border-secondary mb-3" style="max-width: 18rem;">
+              <div class="card-header"> Header </div>
+          <div class="card-body text-secondary">
+            <h5 class="card-title">Os Torreirinhas</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- https://getbootstrap.com/docs/4.3/components/alerts/ -->
+<!-- examples -->
+<div class="alert alert-light" role="alert">
+  <h5>Escolhe a tua companhia</h5>
 </div>
     <div class="row">
-                  <div class="col">
-                  <!-- Primeira coluna da segunda linha-->
-              <div class="card border-secondary mb-3" style="max-width: 18rem;">
-                <div class="card-header">Header</div>
-                <div class="card-body text-secondary">
-                  <h5 class="card-title">Secondary card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              </div>
-
-          <div class="col">
-                <!--Segunda Coluna da segunda linha-->
-          <div class="card border-secondary mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
-            <div class="card-body text-secondary">
-              <h5 class="card-title">Secondary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          </div>
-
-
         <div class="col">
-              <!--Terceira coluna da segunda linha-->
+          <!--1 of 3 linha baixo lado esquerdo -->
+          <!-- https://getbootstrap.com/docs/4.3/components/card/ -->
+          <!-- Border -->
         <div class="card border-secondary mb-3" style="max-width: 18rem;">
-          <div class="card-header"><a href="http://www.ipt.pt">IPT</a>
-          </div>
+              <div class="card-header">Header</div>
           <div class="card-body text-secondary">
-            <h5 class="card-title">Pousada do IPT</h5>
-            <p class="card-text">Venha passar as suas férias com os alunos do curso de DM do IPT.</p>
+            <h5 class="card-title">Campo</h5>
+            <p class="card-text"> Férias de Autocarro: <b> <span id="CA"></span>€</b></p>
+            <p class="card-text"> Férias de Carro: <b> <span id="CC"></span>€</b></p>
+            <p class="card-text"> Férias de Avião: <b> <span id="CV"></span>€</b></p>
+            <p class="card-text"><!--   texo de descrição    --></p>
           </div>
         </div>
-            </div>
-  </div>
-</div>
-</div>
-<!--Rodapé com cor-->
-<footer class="card-footer text-muted bg-dark">
-	<div align="center">
-		<h4>Nº22044 - Sérgio Ribeiro</h4>
-	</div>
+        </div>
+
+        <div class="col">
+          <!--2 of 3 linha baixo meio -->
+          <!-- https://getbootstrap.com/docs/4.3/components/card/ -->
+          <!-- Border -->
+          <div class="card border-secondary mb-3" style="max-width: 18rem;">
+              <div class="card-header">Header</div>
+          <div class="card-body text-secondary">
+            <h5 class="card-title">Praia</h5>
+            <p class="card-text"> Férias de Autocarro: <b> <span id="PA"></span>€</b></p>
+            <p class="card-text"> Férias de Carro: <b> <span id="PC"></span>€</b></p>
+            <p class="card-text"> Férias de Avião: <b> <span id="PV"></span>€</b></p>
+            <p class="card-text"> <!--   texo de descrição   --></p>
+          </div>
+        </div>
+        </div>
+
+        <div class="col">
+          <!--3 of 3 linha baixo lado direito -->
+          <!-- https://getbootstrap.com/docs/4.3/components/card/ -->
+          <!-- Border -->
+          <div class="card border-secondary mb-3" style="max-width: 18rem;">
+              <div class="card-header">Header</div>
+          <div class="card-body text-secondary">
+            <h5 class="card-title">Montanhas</h5>
+            <p class="card-text"> Férias de Autocarro: <b> <span id="IA"></span>€</b></p>
+            <p class="card-text"> Férias de Carro: <b> <span id="IC"></span>€</b></p>
+            <p class="card-text"> Férias de Avião: <b> <span id="IV"></span>€</b></p>
+            <p class="card-text"><!--   texo de descrição    --></p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>    
+
+<!-- footer-->
+<footer class="card-footer text-muted" style="background-color: #343a40 ; text-align: center;">
+        
+  <h6> &#169; Copy - Nº 22044 - Sérgio Ribeiro &#169; </h6>
+
 </footer>
 
-<!--links do Java Script-->
-<script src="../bootstrap/js/jquery-3.3.1.slim.min.js"></script>
-<script src="../bootstrap/js/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="../bootstrap/js/popper.min.js"></script>
 <script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
 
